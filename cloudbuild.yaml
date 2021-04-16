@@ -4,4 +4,4 @@ steps:
     args: ['clean', 'install', '-DskipTests']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/bera-309917/mygcpcloudbuildplanet', '.']
-    images: ['gcr.io/bera-309917/mygcpcloudbuildplanet']
+images: ['gcr.io/bera-309917/mygcpcloudbuildplanet']
